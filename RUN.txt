@@ -1,0 +1,1 @@
+python scoary.py -g scoary/exampledata/Gene_presence_absence.csv -t scoary/exampledata/Tetracycline_resistance.csv

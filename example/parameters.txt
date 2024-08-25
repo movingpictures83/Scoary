@@ -1,0 +1,2 @@
+genes	Gene_presence_absence.csv
+traits	Tetracycline_resistance.csv

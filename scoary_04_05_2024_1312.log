@@ -1,0 +1,32 @@
+05/04/2024 01:12:47 PM    ==== Scoary started ====
+05/04/2024 01:12:47 PM    Command: scoary.py -g scoary/exampledata/Gene_presence_absence.csv -t scoary/exampledata/Tetracycline_resistance.csv
+05/04/2024 01:12:47 PM    Reading gene presence absence file
+05/04/2024 01:12:48 PM    Creating Hamming distance matrix based on gene presence/absence
+05/04/2024 01:12:48 PM    Building UPGMA tree from distance matrix
+05/04/2024 01:12:48 PM    Reading traits file
+05/04/2024 01:12:48 PM    WARNING: Some isolates have missing values for trait Bogus_trait. Missing-value isolates will not be counted in association analysis towards this trait.
+05/04/2024 01:12:48 PM    Finished loading files into memory.
+
+
+05/04/2024 01:12:48 PM    ==== Performing statistics ====
+05/04/2024 01:12:48 PM    -- Filtration options --
+05/04/2024 01:12:48 PM    Individual (Naive):    0.05
+05/04/2024 01:12:48 PM    Collapse genes:    False
+
+
+05/04/2024 01:12:48 PM    Tallying genes and performing statistical analyses
+05/04/2024 01:12:48 PM    Gene-wise counting and Fisher's exact tests for trait: Tetracycline_resistance
+05/04/2024 01:12:50 PM    Adding p-values adjusted for testing multiple hypotheses
+05/04/2024 01:12:50 PM    Gene-wise counting and Fisher's exact tests for trait: Bogus_trait
+05/04/2024 01:12:52 PM    Adding p-values adjusted for testing multiple hypotheses
+05/04/2024 01:12:52 PM    Storing results: Tetracycline_resistance
+05/04/2024 01:12:52 PM    Calculating max number of contrasting pairs for each nominally significant gene
+05/04/2024 01:12:53 PM    Storing results to file
+05/04/2024 01:12:53 PM    Storing results: Bogus_trait
+05/04/2024 01:12:53 PM    Calculating max number of contrasting pairs for each nominally significant gene
+05/04/2024 01:12:54 PM    Storing results to file
+05/04/2024 01:12:54 PM    
+
+05/04/2024 01:12:54 PM    ==== Finished ====
+05/04/2024 01:12:54 PM    Checked a total of 9001 genes for associations to 2 trait(s). Total time used: 6 seconds.
+05/04/2024 01:12:54 PM    Scoary finished successfully, but with WARNINGS. Please check your log file.

@@ -1,0 +1,5 @@
+08/14/2024 06:58:31 PM    ==== Scoary started ====
+08/14/2024 06:58:31 PM    Reading gene presence absence file
+08/14/2024 06:58:32 PM    Creating Hamming distance matrix based on gene presence/absence
+08/14/2024 06:58:32 PM    Building UPGMA tree from distance matrix
+08/14/2024 06:58:32 PM    Reading traits file
